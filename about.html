@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Website - About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li>
+        <label class="switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>About Us</h1>
+    <p>This page tells you about the website and its purpose.</p>
+    <button id="toggleTextBtn">Toggle Extra Info</button>
+    <p id="extraInfo" style="display:none; margin-top: 1rem;">
+      Here is some extra info that can be toggled on and off.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>
